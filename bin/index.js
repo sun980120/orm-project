@@ -11,7 +11,7 @@ const VERSION = require('../package.json').version
 program
     .usage('express-orm [option] -n [Path/Dirname]')
     .requiredOption('-n, --name <name>', 'Input path/directory name')
-    .option('s, --strict', 'use strict mode')
+    .option('-s, --strict', 'use strict mode')
     .version(VERSION, '-V, --verion', 'output the current version')
     .showHelpAfterError()
     .parse();
