@@ -17,7 +17,7 @@
 > This NPM Module is based on TypeORM.
 >It will use TypeORM
 
-Git : https://github.com/sun980120/orm-project
+Git : https://github.com/sun980120/orm-project </br>
 Npm : https://www.npmjs.com/package/orm-project 
 
 ## INSTALL
