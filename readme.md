@@ -79,3 +79,7 @@ project
 * /api/auth/auth.controller.ts
 * /api/auth/auth.service.ts
 * /api/auth/auth.repository.ts
+
+## LOG
+
+* 1.1.8 - Symbolic Link Edit
