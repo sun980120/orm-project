@@ -17,5 +17,14 @@
   "files":[
     "lib",
     "!dist"
-  ]
+  ],
+  "homepage": "NONE",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sun980120/orm-project"
+  },
+  "bugs": {
+    "url": "https://NONE",
+    "email": "bin980120@gmail.com"
+  }
 }
