@@ -84,3 +84,4 @@ project
 
 * 1.1.8 - Symbolic Link Edit
 * 1.1.9 - Change import
+* 1.1.10 - Change import
