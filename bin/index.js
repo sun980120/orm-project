@@ -32,7 +32,7 @@ try {
 
             // Rendering EJS
             // Config area.
-            await ejsRender("package", "/package.json", {projectName: "default"})
+            await ejsRender("package", "/package.json", {projectName: dirName})
             await ejsRender("env", "/.env");
             await ejsRender("gitIgnore", "/.gitignore");
             await ejsRender("default", "/config/default.yaml")
