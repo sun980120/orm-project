@@ -18,6 +18,7 @@ program
 
 // Get dir name
 const dirName = program.opts().name;
+const lowerDirName = dirName.toLowerCase()
 try {
     /**
      * If file exists, throw error.
@@ -32,7 +33,7 @@ try {
 
             // Rendering EJS
             // Config area.
-            await ejsRender("package", "/package.json", {projectName: dirName})
+            await ejsRender("package", "/package.json", {projectName: lowerDirName})
             await ejsRender("env", "/.env");
             await ejsRender("gitIgnore", "/.gitignore");
             await ejsRender("default", "/config/default.yaml")
@@ -65,11 +66,11 @@ try {
         })()
         .then(()=>{
             console.log(`Project Join : \x1b[31mcd ${dirName}\x1b[0m`);
-            console.log("Project Install : \x1b[31mnpm install\x1b[0m");
-            console.log("Project Start : \x1b[31mnpm run start:dev\x1b[0m");
-            console.log("Check your browser! - \x1b[31mlocalhost:8080\x1b[0m\n\n");
-            console.log("And, if you want connect DB or change Port,");
+            console.log("Project Install : \x1b[31mnpm install\x1b[0m && \x1b[31myarn install\x1b[0m");
+            console.log("Project Start : \x1b[31mnpm run start:dev\x1b[0m && \x1b[31myarn run start:dev\x1b[0m\n\n");
+            console.log("And, if you want connect DB or change PORT");
             console.log(`You check \x1b[31m'${dirName}/config/default.yaml\x1b[0m && \x1b[31m'${dirName}/config/development.yaml'/\x1b[0m file.\n\n`);
+            console.log("Check your browser! - \x1b[31mhttp://localhost:8080/api\x1b[0m\n\n");
             console.log("Thank you for downloading!:)");
         })
     }
