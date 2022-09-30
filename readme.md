@@ -87,3 +87,5 @@ project
 * 1.1.10 - Change import
 * 1.1.12 - package.json ADD dirName && Version -> 1.1.12
 * 1.1.14 - Change Import & Edit Code
+* 1.1.15 - Change license
+* 1.1.16 - Delete scripts
