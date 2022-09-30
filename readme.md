@@ -29,10 +29,10 @@ Npm : https://www.npmjs.com/package/orm-project
 ```sh
 $ orm-project [ Options ] -n [ Path/DirName ]
 $ cd [ Path/DirName ]
-$ npm install
-$ npm run start:dev
+$ npm install OR yarn install
+$ npm run start:dev OR yarn run start:dev
 &&
-$ npm run build // Typescript build to Javascript
+$ npm run build OR yarn run build // Typescript build to Javascript
 ```
 
 ## Directory Tree
