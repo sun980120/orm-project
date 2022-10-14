@@ -15,7 +15,7 @@
 ## NOTE
 
 > This NPM Module is based on TypeORM.
->It will use TypeORM
+> It will use TypeORM
 
 Git : https://github.com/sun980120/orm-project </br>
 Npm : https://www.npmjs.com/package/orm-project 
@@ -90,3 +90,4 @@ project
 * 1.1.15 - Change license
 * 1.1.16 - Delete scripts
 * 1.1.17 - Edit .gitignroe
+* 1.2.0 - ReadMe Update
