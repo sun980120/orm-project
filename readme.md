@@ -33,6 +33,9 @@ $ npm install OR yarn install
 $ npm run start:dev OR yarn run start:dev
 &&
 $ npm run build OR yarn run build // Typescript build to Javascript
+$ npm run start OR yarn run start // node start
+&&
+$ npm run start:nodemon OR yarn run start:nodemon // node start to Nodemon
 ```
 
 ## Directory Tree
@@ -91,3 +94,4 @@ project
 * 1.1.16 - Delete scripts
 * 1.1.17 - Edit .gitignroe
 * 1.2.0 - ReadMe Update
+* 1.2.1 - Build & yarn start Update
